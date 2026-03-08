@@ -1,0 +1,13 @@
+$ vagrant init ubuntu/bionic64
+
+$  vagrant validate
+Vagrantfile validated successfully.
+
+vagrant up
+vagrant ssh 
+
+Useful next commands:
+
+vagrant ssh
+cd /vagrant
+Start Django when ready, for example: python manage.py runserver 0.0.0.0:8000
